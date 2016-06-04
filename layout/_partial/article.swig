@@ -55,7 +55,7 @@
   {% endif %}
 </article>
 
-{% if (!index && post.comments && config.disqus_shortname) %}
+{% if !index && post.comments && config.disqus_shortname %}
   <section id="comments">
     <div id="disqus_thread">
       <noscript>Please enable JavaScript to view the
