@@ -1,0 +1,14 @@
+{% extends '_layout.swig' %}
+
+{% block body %}
+  <section class="layout-wrap">
+    <div class="layout-title">
+      <span>{{ page.title }}</span>
+    </div>
+    <div class="layout-wrap-inner">
+      {% if site.categories.length %}
+        {{ list_categories(site.categories) }}
+      {% endif %}
+    </div>
+  </section>
+{% endblock %}

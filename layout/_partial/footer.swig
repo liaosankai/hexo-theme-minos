@@ -1,0 +1,13 @@
+<footer id="footer">
+  {% if theme.sidebar === 'bottom' %}
+    {{ partial('_partial/sidebar') }}
+  {% endif %}
+
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; {{ Date()|date('Y') }} {{ config.author || config.title }} &nbsp;
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>,
+      theme by <a href="http://github.com/ppoffice">PPOffice</a>
+    </div>
+  </div>
+</footer>
