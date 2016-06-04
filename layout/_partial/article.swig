@@ -58,6 +58,15 @@
 {% if !index && post.comments && config.disqus_shortname %}
   <section id="comments">
     <div id="disqus_thread">
+      <script>
+        (function () {
+          var d = document,
+          s = d.createElement('script');
+          s.src = '//{{ config.disqus_shortname }}.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', + new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
       <noscript>Please enable JavaScript to view the
         <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a>
       </noscript>
