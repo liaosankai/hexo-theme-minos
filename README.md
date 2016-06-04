@@ -9,7 +9,7 @@
 ### Install
 
 ``` bash
-$ git clone https://github.com/ppoffice/hexo-theme-minos.git themes/minos
+$ git clone https://github.com/liaosankai/hexo-theme-minos.git themes/minos
 ```
 
 **Minos requires Hexo 3.0 and above.**
