@@ -1,0 +1,13 @@
+nav:
+  next: '下一頁'
+  prev: '上一頁'
+article:
+  comments: '評論'
+  contents: '目錄'
+category: '分類'
+categories: '分類'
+tag: '標籤'
+tags: '標籤'
+archive: '封存'
+archives: '封存'
+about: '關於'
